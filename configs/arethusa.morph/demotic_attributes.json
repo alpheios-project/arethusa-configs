@@ -205,6 +205,12 @@
             "pos" : "verb",
             "typeV" : [ "ptcp", "qua" ]
           }
+        },
+        {
+          "if" : {
+            "pos" : "art",
+            "typeA" : "possart"
+          }
         }
       ]
     },
@@ -328,6 +334,11 @@
           "long" : "third future",
           "short" : "3fut",
           "postag" : "f"
+        },
+        "1fut" : {
+          "long" : "first future",
+          "short" : "1fut",
+          "postag" : "t"
         }
       }
     },
@@ -356,6 +367,11 @@
           "long" : "optative",
           "short" : "opt",
           "postag" : "o"
+        },
+        "prosp" : {
+          "long" : "prospective",
+          "short" : "prosp",
+          "postag" : "p"
         },
         "imp" : {
           "long" : "imperative",
@@ -522,6 +538,11 @@
           "long" : "cardinal number",
           "short" : "cardn",
           "postag" : "c"
+        },
+        "fract" : {
+          "long" : "fraction",
+          "short" : "fract",
+          "postag" : "f"
         }
       }
     },
@@ -608,6 +629,11 @@
           "long" : "auxiliary verb",
           "short" : "axv",
           "postag" : "x"
+        },
+        "exst" : {
+          "long" : "existential",
+          "short" : "exst",
+          "postag" : "e"
         }
       }
     }

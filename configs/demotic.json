@@ -4,10 +4,10 @@
       "noRetrieval" : "online",
       "gloss" : true,
       "additionalFields" : true,
-      "@include" : "./arethusa.morph/arethusa_demotic_morph_attributes_3.3.json"
+      "@include" : "./arethusa.morph/demotic_attributes.json"
     },
     "relation" : {
-      "@include" : "./arethusa.relation/arethusa_demotic_relation_3.0.json"
+      "@include" : "./arethusa.relation/demotic_relations.json"
     }
   }
 }
