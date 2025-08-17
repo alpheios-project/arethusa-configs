@@ -17,7 +17,7 @@
   "styledThrough" : "pos",
   "attributes" : {
     "pos" : {
-            "long" : "Part of Speech",
+      "long" : "Part of Speech",
       "short" : "pos",
       "values" : {
         "adj" : {
@@ -148,6 +148,14 @@
             "color" : "rgb (250, 30, 190)"
           }
         },
+        "pref" : {
+          "long" : "prefix of relative form or participle",
+          "short" : "pref",
+          "postag" : "x",
+          "style" : {
+            "color" : "rgb (250, 130, 170)"
+          }
+        },
         "prep" : {
           "long" : "preposition",
           "short" : "prep",
@@ -220,13 +228,19 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "noun", "adj", "dempr", "perspr", "verb" ]
+            "pos" : [ "art", "noun", "adj", "dempr", "perspr" ]
           }
         },
         {
           "if" : {
             "pos" : "verb",
-            "typeV" : [ "ptcp", "qua" ]
+            "typeV" : [ "ptcp", "qua", "rel" ]
+          }
+        },
+        {
+          "if" : {
+            "pos" : "name",
+            "typeN" : [ "title" ]
           }
         }
       ],
@@ -244,7 +258,7 @@
       }
     },
     "gend" : {
-      "long" : "gender",
+      "long" : "Gender",
       "short" : "gend",
       "rules" : [
         {
@@ -255,7 +269,7 @@
         {
           "if" : {
             "pos" : "name",
-            "typeN" : [ "pers", "roy", "div", "epi" ]
+            "typeN" : [ "pers", "roy", "div", "epi", "title" ]
           }
         },
         {
@@ -405,7 +419,7 @@
       }
     },
     "typeA" : {
-      "long" : "type of article",
+      "long" : "Type of article",
       "short" : "typeA",
       "rules" : [
         {
@@ -438,7 +452,7 @@
       }
     },
     "typeC" : {
-      "long" : "type of converter",
+      "long" : "Type of converter",
       "short" : "typeC",
       "rules" : [
         {
@@ -476,7 +490,7 @@
       }
     },
     "typeN" : {
-      "long" : "type of name",
+      "long" : "Type of name",
       "short" : "typeN",
       "rules" : [
         {
@@ -519,7 +533,7 @@
       }
     },
     "typeNo" : {
-      "long" : "type of numeral",
+      "long" : "Type of numeral",
       "short" : "typeNo",
       "rules" : [
         {
@@ -547,7 +561,7 @@
       }
     },
     "typePP" : {
-      "long" : "type of personal pronoun",
+      "long" : "Type of personal pronoun",
       "short" : "typePP",
       "rules" : [
         {
@@ -585,7 +599,7 @@
       }
     },
     "typeV" : {
-      "long" : "type of verb",
+      "long" : "Type of verb",
       "short" : "typeV",
       "rules" : [
         {
