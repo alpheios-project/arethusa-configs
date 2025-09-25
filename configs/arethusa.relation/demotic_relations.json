@@ -103,6 +103,10 @@
         "long" : "Clause conjugation",
         "short" : "CCONJ",
         "nested" : {
+          "Caus": {
+            "long": "Causative after di",
+            "short": "Caus"
+          },
           "Juss" : {
             "long" : "Jussive",
             "short" : "Juss"
