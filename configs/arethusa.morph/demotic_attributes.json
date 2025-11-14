@@ -25,7 +25,7 @@
           "short" : "adj",
           "postag" : "j",
           "style" : {
-            "color" : "rgb (29, 29, 255)"
+            "color" : "rgb(29, 29, 255)"
           }
         },
         "adv" : {
@@ -33,7 +33,7 @@
           "short" : "adv",
           "postag" : "b",
           "style" : {
-            "color" : "rgb (255, 140, 20)"
+            "color" : "rgb(255, 140, 20)"
           }
         },
         "art" : {
@@ -41,7 +41,7 @@
           "short" : "art",
           "postag" : "a",
           "style" : {
-            "color" : "rgb (210, 210, 250)"
+            "color" : "rgb(210, 210, 250)"
           }
         },
         "aug" : {
@@ -49,7 +49,7 @@
           "short" : "aug",
           "postag" : "u",
           "style" : {
-            "color" : "rgb (110, 230, 220)"
+            "color" : "rgb(110, 230, 220)"
           }
         },
         "conj" : {
@@ -57,7 +57,7 @@
           "short" : "conj",
           "postag" : "o",
           "style" : {
-            "color" : "rgb (255, 120, 180)"
+            "color" : "rgb(255, 120, 180)"
           }
         },
         "conv" : {
@@ -65,7 +65,7 @@
           "short" : "conv",
           "postag" : "c",
           "style" : {
-            "color" : "rgb (255, 170, 200)"
+            "color" : "rgb(255, 170, 200)"
           }
         },
         "cop" : {
@@ -73,7 +73,7 @@
           "short" : "cop",
           "postag" : "k",
           "style" : {
-            "color" : "rgb (167, 138, 226)"
+            "color" : "rgb(167, 138, 226)"
           }
         },
         "dempr" : {
@@ -81,7 +81,7 @@
           "short" : "dempr",
           "postag" : "d",
           "style" : {
-            "color" : "rgb (0, 240, 180)"
+            "color" : "rgb(0, 240, 180)"
           }
         },
         "intj" : {
@@ -89,7 +89,7 @@
           "short" : "intj",
           "postag" : "i",
           "style" : {
-            "color" : "rgb (255, 215, 0)"
+            "color" : "rgb(255, 215, 0)"
           }
         },
         "intpr" : {
@@ -97,7 +97,7 @@
           "short" : "intpr",
           "postag" : "r",
           "style" : {
-            "color" : "rgb (244, 44, 244)"
+            "color" : "rgb(244, 44, 244)"
           }
         },
         "name" : {
@@ -105,7 +105,7 @@
           "short" : "name",
           "postag" : "m",
           "style" : {
-            "color" : "rgb (0, 252, 246)"
+            "color" : "rgb(0, 252, 246)"
           }
         },
         "neg" : {
@@ -113,7 +113,7 @@
           "short" : "neg",
           "postag" : "g",
           "style" : {
-            "color" : "rgb (204, 255, 102)"
+            "color" : "rgb(204, 255, 102)"
           }
         },
         "noun" : {
@@ -121,7 +121,7 @@
           "short" : "noun",
           "postag" : "n",
           "style" : {
-            "color" : "rgb (87, 156, 213)"
+            "color" : "rgb(87, 156, 213)"
           }
         },
         "nmrl" : {
@@ -129,7 +129,7 @@
           "short" : "nmrl",
           "postag" : "z",
           "style" : {
-            "color" : "rgb (176, 167, 190)"
+            "color" : "rgb(176, 167, 190)"
           }
         },
         "prtc" : {
@@ -137,7 +137,7 @@
           "short" : "prtc",
           "postag" : "l",
           "style" : {
-            "color" : "rgb (204, 93, 18)"
+            "color" : "rgb(204, 93, 18)"
           }
         },
         "perspr" : {
@@ -145,7 +145,7 @@
           "short" : "perspr",
           "postag" : "p",
           "style" : {
-            "color" : "rgb (250, 30, 190)"
+            "color" : "rgb(250, 30, 190)"
           }
         },
         "pref" : {
@@ -153,7 +153,7 @@
           "short" : "pref",
           "postag" : "x",
           "style" : {
-            "color" : "rgb (250, 130, 170)"
+            "color" : "rgb(250, 130, 170)"
           }
         },
         "prep" : {
@@ -161,7 +161,7 @@
           "short" : "prep",
           "postag" : "e",
           "style" : {
-            "color" : "rgb (0, 255, 0)"
+            "color" : "rgb(0, 255, 0)"
           }
         },
         "relpr" : {
@@ -169,7 +169,7 @@
           "short" : "relpr",
           "postag" : "f",
           "style" : {
-            "color" : "rgb (80, 190, 220)"
+            "color" : "rgb(80, 190, 220)"
           }
         },
         "verb" : {
@@ -177,7 +177,7 @@
           "short" : "verb",
           "postag" : "v",
           "style" : {
-            "color" : "rgb (222, 0, 99)"
+            "color" : "rgb(222, 0, 99)"
           }
         }
       }
@@ -296,11 +296,6 @@
           "short" : "fem",
           "postag" : "f"
         },
-        "neut" : {
-          "long" : "neuter",
-          "short" : "neut",
-          "postag" : "n"
-        },
         "com" : {
           "long" : "commune",
           "short" : "com",
@@ -410,11 +405,6 @@
           "long" : "active",
           "short" : "act",
           "postag" : "a"
-        },
-        "pass" : {
-          "long" : "passive",
-          "short" : "pass",
-          "postag" : "p"
         }
       }
     },
